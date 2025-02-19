@@ -617,8 +617,6 @@ img {
 }
 
 .checkbox-label {
-  display: flex;
-  align-items: baseline;
   margin-bottom: 0;
   cursor: pointer;
 }
@@ -631,7 +629,7 @@ img {
   border-radius: 2px;
   transition: background-color var(--primary-transition),
     border var(--primary-transition), fill var(--primary-transition);
-  margin-right: 8px;
+  margin-right: 4px;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -646,5 +644,4 @@ img {
 .policy-link {
   color: var(--secondary-text-color);
   text-decoration: underline;
-  margin-left: 3px;
 }
