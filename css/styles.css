@@ -599,6 +599,8 @@ img {
   height: 120px;
   padding: 8px 16px;
   resize: none;
+  color: var(--modal-overlay-color);
+  outline: transparent;
 }
 
 .modal-textarea::placeholder {
@@ -626,7 +628,7 @@ img {
   border: 1px solid var(--modal-overlay-color);
   border-radius: 2px;
   transition: background-color var(--primary-transition),
-    border var(--primary-transitionn), fill var(--primary-transition);
+    border var(--primary-transition), fill var(--primary-transition);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -643,4 +645,5 @@ img {
 .policy-link {
   color: var(--secondary-text-color);
   text-decoration: underline;
+  margin-left: 3px;
 }
