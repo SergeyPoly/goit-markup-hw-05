@@ -631,7 +631,6 @@ img {
   transition: background-color var(--primary-transition),
     border var(--primary-transition), fill var(--primary-transition);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
