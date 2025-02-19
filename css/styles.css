@@ -565,6 +565,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  outline: transparent;
 }
 
 .modal-form-field:focus-within {
